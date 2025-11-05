@@ -50,20 +50,19 @@ It is an app that collects information from many game databases (like Steam, Epi
 - Login Screen
   - The user can sign-in and sign-out to the app
   - The user can connect to EPIC, Steam, etc with their logins
-  - 
 - Registration Screen
   - The user can register an account
   - The user can connect to EPIC, Steam, etc with their logins
-- Stream
+- Trending (Stream)
     - The user can search for games within their own lists
     - The user can view descriptions and images of the game they are looking for
     - The user can use the navigation bar to go from one page to another
     - The user can see trending games on the home page
-- Detail
+- Game Info (Detail)
     - The user can view descriptions and images of the game they are looking for
     - The user can see which games are on sale
     - The user can play the game trailers for the games they are looking for
-- Creation
+- Wishlist (Creation)
     - The user can request games/libraries that they want added to the app (in a support page)
 - Search
     - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
@@ -86,14 +85,31 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 **Flow Navigation** (Screen to Screen)
 
-- On Open
-    => Trending
 - Login Screen
-    => Home
+=> Home
+- Registration Screen
+=> Home
+- Trending (Stream)
+=> Search
+=> Game Vault
+=> Wishlist
+=> Deals Near You
+- Game Info (Detail)
+=> None
+- Wishlist (Creation)
+=> Game Info
+- Search
+=> Game Info
+=> Wishlist
+- Profile
+=> None
 
 
 ## Wireframes
-
+![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
+![image](https://hackmd.io/_uploads/By5jRH_1-l.png)
+![image](https://hackmd.io/_uploads/H19n0Buybg.png)
+![image](https://hackmd.io/_uploads/HJuhw8_kbe.png)
 
 ### [BONUS] Digital Wireframes & Mockups
 ![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
