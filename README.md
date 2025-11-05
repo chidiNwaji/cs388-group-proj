@@ -24,6 +24,7 @@ It is an app that collects information from many game databases (like Steam, Epi
 ## Product Spec
 
 <br>
+
 ### 1. User Features (Required and Optional)
 
 **Required Features**
@@ -47,6 +48,7 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 
 <br>
+
 ### 2. Screen Archetypes
 - Login/Registration Screen
   - The user can register an account
@@ -90,9 +92,10 @@ It is an app that collects information from many game databases (like Steam, Epi
   - The user can sign-in and sign-out to the app
   - The user can request games/libraries that they want added to the app (in a support page)
   - The user's data can save between sessions on the app
-    
 
+    
 <br>
+
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
@@ -105,6 +108,7 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 
 <br>
+
 **Flow Navigation** (Screen to Screen)
 - Login/Registration Screen
 => Home
@@ -138,11 +142,14 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 
 <br>
+
 ## Wireframes
 <img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT1.jpg" width=600>
-<img src="[YOUR_WIREFRAME_IMAGE_URL](https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT2.jpg)" width=600>
+
+<img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT2.jpg" width=600>
 
 <br>
+
 ### [BONUS] Digital Wireframes & Mockups
 ![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
 ![image](https://hackmd.io/_uploads/By5jRH_1-l.png)
