@@ -106,10 +106,6 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 
 ## Wireframes
-![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
-![image](https://hackmd.io/_uploads/By5jRH_1-l.png)
-![image](https://hackmd.io/_uploads/H19n0Buybg.png)
-![image](https://hackmd.io/_uploads/HJuhw8_kbe.png)
 
 ### [BONUS] Digital Wireframes & Mockups
 ![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
