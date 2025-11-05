@@ -139,8 +139,8 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 <br>
 ## Wireframes
-![image](https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT1.jpg)
-![image](https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT2.jpg)
+<img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT1.jpg" width=600>
+<img src="[YOUR_WIREFRAME_IMAGE_URL](https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/98f7bb298c219d92308e675f5483220f8f2d8b91/WireframePT2.jpg)" width=600>
 
 <br>
 ### [BONUS] Digital Wireframes & Mockups
