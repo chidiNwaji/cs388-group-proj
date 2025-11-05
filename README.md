@@ -111,34 +111,34 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 **Flow Navigation** (Screen to Screen)
 - Login/Registration Screen
-=> Home
+  - => Home
 
 - Home
-=> Settings
-=> Search
-=> Trending
-=> On Sale
-=> Game Vault
+  - => Settings
+  - => Search
+  - => Trending
+  - => On Sale
+  - => Game Vault
 
 - Search
-=> Game Info
+  - => Game Info
 
 - Game Info
-=> Search
+  - => Search
 
 - Trending
-=> Search
-=> Game Info
+  - => Search
+  - => Game Info
 
 - On Sale
-=> Search
-=> Game Info
+  - => Search
+  - => Game Info
 
 - Wishlist
-=> Game Info
+  - => Game Info
 
 - Profile/Settings
-=> None
+  - => None
 
 
 <br>
