@@ -9,7 +9,7 @@
 ## Overview
 
 ### Description
-It is an app that collects information from many game databases (like Steam, Epic Games, etc) and allows the user to make their own comprehensive list (games/consoles purchased, upcoming games they want, for-sale watchlist) from all the databases.
+It is an app that collects information from many game databases (like Steam, Epic Games, etc) and allows the user to make their own comprehensive list (games/consoles purchased, upcoming games they want (wishlist), on-sale watchlist) from all the databases.
 
 ### App Evaluation
 
@@ -23,10 +23,10 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 ## Product Spec
 
+<br>
 ### 1. User Features (Required and Optional)
 
 **Required Features**
-
 1. The user can sign-in and sign-out to the app
 2. The user can register an account
 3. The user can connect to EPIC, Steam, etc with their logins
@@ -36,76 +36,111 @@ It is an app that collects information from many game databases (like Steam, Epi
 7. The user can see which games are on sale
 8. The user can use the navigation bar to go from one page to another
 9. The user's data can save between sessions on the app
+10. The user can see trending games
+11. The user can see their wishlist or GameVault list
 
 **Optional Features**
-
 1. The user can play the game trailers for the games they are looking for
-2. The user can see trending games on the home page
-3. The user will be able to look for friends they can connect with
-4. The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
-5. The user can request games/libraries that they want added to the app (in a support page)
+2. The user will be able to look for friends they can connect with
+3. The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
+4. The user can request games/libraries that they want added to the app (in a support page)
 
+
+<br>
 ### 2. Screen Archetypes
-
-- Login Screen
+- Login/Registration Screen
+  - The user can register an account
   - The user can sign-in and sign-out to the app
   - The user can connect to EPIC, Steam, etc with their logins
-- Registration Screen
-  - The user can register an account
-  - The user can connect to EPIC, Steam, etc with their logins
-- Trending (Stream)
-    - The user can search for games within their own lists
-    - The user can view descriptions and images of the game they are looking for
-    - The user can use the navigation bar to go from one page to another
-    - The user can see trending games on the home page
+  - The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
+- Home (Stream)
+  - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
+  - The user can see which games are on sale
+  - The user can use the navigation bar to go from one page to another
+  - The user can see trending games
+  - The user can see their wishlist or GameVault list
+- Search (Creation & Stream)
+  - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
+  - The user can use the navigation bar to go from one page to another
+  - The user can see which games are on sale
+  - The user can see trending games
 - Game Info (Detail)
-    - The user can view descriptions and images of the game they are looking for
-    - The user can see which games are on sale
-    - The user can play the game trailers for the games they are looking for
-- Wishlist (Creation)
-    - The user can request games/libraries that they want added to the app (in a support page)
-- Search
-    - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
-    - The user can search for games within their own lists
-    - The user will be able to look for friends they can connect with
-- Profile
-    - The user can connect to EPIC, Steam, etc with their logins
-    - The user will be able to look for friends they can connect with
-    - The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
+  - The user can view descriptions and images of the game they are looking for
+  - The user can see which games are on sale
+  - The user can play the game trailers for the games they are looking for
+  - The user can see trending games
+- Trending (Stream)
+  - The user can use the navigation bar to go from one page to another
+  - The user can see trending games
+- On Sale (Stream)
+  - The user can use the navigation bar to go from one page to another
+  - The user can see trending games
+- GameVault (Creation & Stream)
+  - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
+  - The user can search for games within their own lists
+  - The user can see which games are on sale
+  - The user can use the navigation bar to go from one page to another
+  - The user's data can save between sessions on the app
+  - The user can see trending games
+  - The user can see their wishlist or GameVault list
+- Profile/Settings
+  - The user can connect to EPIC, Steam, etc with their logins
+  - The user will be able to look for friends they can connect with
+  - The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
+  - The user can sign-in and sign-out to the app
+  - The user can request games/libraries that they want added to the app (in a support page)
+  - The user's data can save between sessions on the app
+    
 
+<br>
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Home Feed (Search bar, Sales, GameVault, Deals)
+* Home Feed (Search bar, Trending, Sales, GameVault)
+* Search (filter by company (Steam, EPIC, Nintendo, XBOX, Playstation), by genre, by other categories)
 * Trending (Popular Game Suggestions, Popular Console Suggestions, Top 10)
-* Vault (Saved Games, Saved Consoles)
-* Profile/Settings (App settings, User info/link to sign in, account info)
+* GameVault (Saved Games, Saved Consoles, Wishlist)
+* Profile (App settings, Account info)
 
 
+<br>
 **Flow Navigation** (Screen to Screen)
+- Login/Registration Screen
+=> Home
 
-- Login Screen
-=> Home
-- Registration Screen
-=> Home
-- Trending (Stream)
+- Home
+=> Settings
 => Search
+=> Trending
+=> On Sale
 => Game Vault
-=> Wishlist
-=> Deals Near You
-- Game Info (Detail)
-=> None
-- Wishlist (Creation)
-=> Game Info
+
 - Search
 => Game Info
-=> Wishlist
-- Profile
+
+- Game Info
+=> Search
+
+- Trending
+=> Search
+=> Game Info
+
+- On Sale
+=> Search
+=> Game Info
+
+- Wishlist
+=> Game Info
+
+- Profile/Settings
 => None
 
 
+<br>
 ## Wireframes
+![image](WireframePT1.jpg)
+![image](WireframePT2.jpg)
 
 ### [BONUS] Digital Wireframes & Mockups
 ![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
