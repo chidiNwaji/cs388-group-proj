@@ -1,4 +1,4 @@
-# Milestone 1 - APP_NAME_HERE (Unit 7)
+# Milestone 1 - "LUDEX CRYPTA" (Unit 7)
 
 ## Table of Contents
 
@@ -9,18 +9,17 @@
 ## Overview
 
 ### Description
-
-[Description of your app]
+It is an app that collects information from many game databases (like Steam, Epic Games, etc) and allows the user to make their own comprehensive list (games/consoles purchased, upcoming games they want, for-sale watchlist) from all the databases.
 
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Gaming/Video Games (Social & Entertainment)
+- **Mobile:** Mobile ensures easy accessibilty, which is convenient for gamers. There will be use of audio or video to play game trailers, push notifications to let users know of upcoming sales, and real-time data from the gaming sites, and location and maps usage to ensure deals and sales are relevant to the user's region and time zone.
+- **Story:** Gamers tend to have multiple gaming libraries on multiple consoles and would have a hard time accessing or organizing all of them, this is the solution. It would also help them see which games are on sale without having to connect to 50 different sales-watch apps. Young adults, our peers, love gaming and we all have different gaming systems and those of us on PC either use Steam, Epic Games, Ubisoft, EA, or another site to get games and it sometimes becomes too much keeping track of it all; they would really like a centralized and personalized gaming database.
+- **Market:** Any gamer, casual or competitive, could use this app. More people have collectively spent time gaming than there has been in Earth's history, so potentially the user base is endless. This app would greatly help the ever growing gaming community.
+- **Habit:** Gamers would use this app daily to check sales and update their lists. The average user would create personalized lists, so they would not just be consumers.
+- **Scope:** This app would be technically challenging as it would require frequent API calls to multiple frequently updating sources. A stripped down version of this app would still be interesting, as it would only shrink the number of sources we pull from, meaning the user would still have an extensive library to pick their games from. Finally, this app is clearly defined in both the frontend and the backend since the backend would handle a lot of API calls and database management and the front end would focus on having the correct links to different gaming sources.
 
 ## Product Spec
 
@@ -28,54 +27,84 @@
 
 **Required Features**
 
-1. [fill in your required user features here]
-2. ...
-3. ...
+1. The user can sign-in and sign-out to the app
+2. The user can register an account
+3. The user can connect to EPIC, Steam, etc with their logins
+4. The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
+5. The user can search for games within their own lists
+6. The user can view descriptions and images of the game they are looking for
+7. The user can see which games are on sale
+8. The user can use the navigation bar to go from one page to another
+9. The user's data can save between sessions on the app
 
 **Optional Features**
 
-1. [fill in your optional user features here]
-2. ...
-3. ...
+1. The user can play the game trailers for the games they are looking for
+2. The user can see trending games on the home page
+3. The user will be able to look for friends they can connect with
+4. The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
+5. The user can request games/libraries that they want added to the app (in a support page)
 
 ### 2. Screen Archetypes
 
-- [list first screen here]
-  - [list associated required story here]
-  - ...
-- [list second screen here]
-  - [list associated required story here]
-  - ...
+- Login Screen
+  - The user can sign-in and sign-out to the app
+  - The user can connect to EPIC, Steam, etc with their logins
+  - 
+- Registration Screen
+  - The user can register an account
+  - The user can connect to EPIC, Steam, etc with their logins
+- Stream
+    - The user can search for games within their own lists
+    - The user can view descriptions and images of the game they are looking for
+    - The user can use the navigation bar to go from one page to another
+    - The user can see trending games on the home page
+- Detail
+    - The user can view descriptions and images of the game they are looking for
+    - The user can see which games are on sale
+    - The user can play the game trailers for the games they are looking for
+- Creation
+    - The user can request games/libraries that they want added to the app (in a support page)
+- Search
+    - The user can search for games from EPIC's, Steam's, etc libraries to add to their lists
+    - The user can search for games within their own lists
+    - The user will be able to look for friends they can connect with
+- Profile
+    - The user can connect to EPIC, Steam, etc with their logins
+    - The user will be able to look for friends they can connect with
+    - The user can connect to their console's accounts (XBOX, Nintendo, Playstation, etc)
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Feed (Search bar, Sales, GameVault, Deals)
+* Trending (Popular Game Suggestions, Popular Console Suggestions, Top 10)
+* Vault (Saved Games, Saved Consoles)
+* Profile/Settings (App settings, User info/link to sign in, account info)
+
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
-  - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- On Open
+    => Trending
+- Login Screen
+    => Home
+
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-<br>
-
-<br>
 
 ### [BONUS] Digital Wireframes & Mockups
+![image](https://hackmd.io/_uploads/rkQYRr_1Zl.png)
+![image](https://hackmd.io/_uploads/By5jRH_1-l.png)
+![image](https://hackmd.io/_uploads/H19n0Buybg.png)
+![image](https://hackmd.io/_uploads/HJuhw8_kbe.png)
+
 
 ### [BONUS] Interactive Prototype
 
+<br>
 <br>
 
 # Milestone 2 - Build Sprint 1 (Unit 8)
@@ -96,6 +125,7 @@ this section]
 - List the issues you completed this sprint
 - [Add giphy that shows current build progress for Milestone 2. Note: We will be looking for progression of work between Milestone 2 and 3. Make sure your giphys are not duplicated and clearly show the change from Sprint 1 to 2.]
 
+<br>
 <br>
 
 # Milestone 3 - Build Sprint 2 (Unit 9)
