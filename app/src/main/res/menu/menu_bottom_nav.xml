@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homePage"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        android:title="Home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/searchPage"
+        android:enabled="true"
+        android:icon="@drawable/search_icon"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/trendingPage"
+        android:enabled="true"
+        android:icon="@drawable/trend2_icon"
+        android:title="Trending"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/gameVaultPage"
+        android:enabled="true"
+        android:icon="@drawable/safe_icon"
+        android:title="Game Vault"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profile_settingsPage"
+        android:enabled="true"
+        android:icon="@drawable/person_icon"
+        android:title="Profile/Settings"
+        app:showAsAction="ifRoom"/>
+</menu>
