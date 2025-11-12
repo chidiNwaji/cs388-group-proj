@@ -35,7 +35,7 @@ It is an app that collects information from many game databases (like Steam, Epi
 - [ ] 5. The user can search for games within their own lists
 - [ ] 6. The user can view descriptions and images of the game they are looking for
 - [ ] 7. The user can see which games are on sale
-- [ ] 8. The user can use the navigation bar to go from one page to another
+- [x] 8. The user can use the navigation bar to go from one page to another
 - [ ] 9. The user's data can save between sessions on the app
 - [ ] 10. The user can see trending games
 - [x] 11. The user can see their wishlist or GameVault list
@@ -179,7 +179,8 @@ It is an app that collects information from many game databases (like Steam, Epi
    - Assigned Issues
    - Basic App Framework
    - Navigation Bar
-- [https://i.imgur.com/qhhuoH1.gif](https://imgur.com/a/group-5-sprint-1-prototype-CiODEYZ)
+     
+- **GIF:** [https://i.imgur.com/euTC3VR.gif](https://imgur.com/a/cs388-group-project-sprint1-final-M4zYSyb)
 
 <br>
 <br>
