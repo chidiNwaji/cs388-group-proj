@@ -165,10 +165,7 @@ It is an app that collects information from many game databases (like Steam, Epi
 # Milestone 2 - Build Sprint 1 (Unit 8)
 
 ## GitHub Project board
-
-[Add screenshot of your Project Board with three milestones visible in
-this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/main/Github_Board.jpg" width=600>
 
 ## Issue cards
 
