@@ -169,8 +169,8 @@ It is an app that collects information from many game databases (like Steam, Epi
 
 ## Issue cards
 
-- [Add screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/main/github_issues.jpg" width=600>
-- [Add screenshot of your Project Board with the issues that you're working on in the **NEXT sprint**. It should include issues for next unit with assigned owners.] <img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/main/github_issues.jpg" width=600>
+- [Screenshot of your Project Board with the issues that you've been working on for this unit's milestone] <img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/main/github_issues.jpg" width=600>
+- [Screenshot of your Project Board with the issues that you're working on in the **NEXT sprint** with assigned owners.] <img src="https://github.com/Coding-Just-Takes-Dedication-CJTD/cs388-group-proj/blob/main/github_issues.jpg" width=600>
 
 ## Issues worked on this sprint
 
