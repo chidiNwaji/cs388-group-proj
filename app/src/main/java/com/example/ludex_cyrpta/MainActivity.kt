@@ -21,13 +21,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val gamesRV = findViewById<RecyclerView>(R.id.gameVaultList)
-        games = GameFetcher.getGames()
-        val adapter = GameAdapter(games)
-        // Attach the adapter to the RecyclerView to populate items
-        gamesRV.adapter = adapter
-        // Set layout manager to position the items
-        gamesRV.layoutManager = LinearLayoutManager(this)
+
 
     }
 }
