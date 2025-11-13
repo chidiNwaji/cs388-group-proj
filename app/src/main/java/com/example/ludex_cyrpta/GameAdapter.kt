@@ -62,7 +62,7 @@ class GameAdapter(private val games: List<Game>) : RecyclerView.Adapter<GameAdap
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameViewHolder {
         val context = parent.context
         val inflater = LayoutInflater.from(context)
-        val contactView = inflater.inflate(R.layout.game_item, parent, false)
+        val contactView = inflater.inflate(R.layout.game_rv_item, parent, false)
         return GameViewHolder(contactView)
     }
 

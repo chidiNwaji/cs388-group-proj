@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".TrendingFragment" >
 
     <SearchView
         android:id="@+id/searchView"
@@ -13,15 +14,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/salesPageHdr"
+        app:layout_constraintTop_toBottomOf="@+id/trendPageHdr"
         app:layout_constraintVertical_bias="0.016" />
 
     <TextView
-        android:id="@+id/salesPageHdr"
+        android:id="@+id/trendPageHdr"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="On Sale NOW!!"
+        android:text="Trending"
         android:textSize="50sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,12 +33,12 @@
         app:layout_constraintVertical_bias="0.036" />
 
     <TextView
-        android:id="@+id/salesContentPlacehldr"
+        android:id="@+id/trendingContentPlacehldr"
         android:layout_width="370dp"
         android:layout_height="500dp"
         android:background="@drawable/placeholder_bg"
         android:gravity="center_horizontal|top"
-        android:text="Sale Content (placeholder)"
+        android:text="Trending Content (placeholder)"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

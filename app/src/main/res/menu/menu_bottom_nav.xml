@@ -23,10 +23,10 @@
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/gameVaultPage"
+        android:id="@+id/vault_wishlistPage"
         android:enabled="true"
         android:icon="@drawable/safe_icon"
-        android:title="Game Vault"
+        android:title="Game Vault/Wishlist"
         app:showAsAction="ifRoom" />
 
     <item

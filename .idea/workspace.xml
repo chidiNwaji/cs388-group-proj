@@ -50,7 +50,7 @@
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/game_item.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/game_rv_item.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
@@ -60,47 +60,67 @@
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/game_vault_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/game_vault_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/home_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/home_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/login_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/on_sale_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag1.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/profile_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag2.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/sale_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/registration_screen1.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/search_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/registration_screen2.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/trend_screen_frag.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/search_screen.xml">
+        <config>
+          <theme>@style/Theme.LudexCyrpta</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/settings_screen.xml">
+        <config>
+          <theme>@style/Theme.LudexCyrpta</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/trending_screen.xml">
+        <config>
+          <theme>@style/Theme.LudexCyrpta</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/vault_wishlist_screen.xml">
+        <config>
+          <theme>@style/Theme.LudexCyrpta</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/wishlist_screen.xml">
         <config>
           <theme>@style/Theme.LudexCyrpta</theme>
         </config>
@@ -116,28 +136,40 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce5cf69-de47-4755-9449-ef7930c451e7" name="Changes" comment="Sprint 1 Update">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/HomePageFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/OnSaleFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/ProfSettingsFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/SearchPageFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/TrendingFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/placeholder_bg.xml" afterDir="false" />
+    <list default="true" id="6ce5cf69-de47-4755-9449-ef7930c451e7" name="Changes" comment="Sprint 1 Final Update">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/ProfileFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/ProfileSettingsPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/SettingsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/VaultWishlistFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/VaultWishlistPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/WishlistFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/vault_wishlist_screen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/GameAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/GameAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/GameVaultFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/GameVaultFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/HomePageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/HomeFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_screen_frag.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen_frag.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/reg_screen_frag1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/reg_screen_frag2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sale_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/sale_screen_frag.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_screen_frag.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/trend_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/trend_screen_frag.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/OnSaleFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/OnSaleFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/ProfSettingsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/ProfileSettingsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/SearchPageFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/SearchFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/TrendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/ludex_cyrpta/TrendingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/game_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/game_rv_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/game_vault_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/game_vault_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/wishlist_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile_settings_screen_frag.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/registration_screen_frag2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sale_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/on_sale_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/trend_screen_frag.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/trending_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_bottom_nav.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_bottom_nav.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,9 +206,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -254,6 +286,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CN271\AndroidStudioProjects\LudexCyrpta\app\src\main\java\com\example\ludex_cyrpta" />
       <recent name="C:\Users\CN271\AndroidStudioProjects\LudexCyrpta\app\src\main\res\drawable" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.example.ludex_cyrpta" />
     </key>
   </component>
   <component name="RunManager">
@@ -370,25 +405,34 @@
       <option name="project" value="LOCAL" />
       <updated>1762928497330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sprint 1 Final Update">
+      <option name="closed" value="true" />
+      <created>1762935833626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762935833626</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge with master branch" />
     <MESSAGE value="Sprint 1 Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 1 Update" />
+    <MESSAGE value="Sprint 1 Final Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprint 1 Final Update" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
       <map>
         <entry key="com.example.ludex_cyrpta">
           <value>
-            <CheckInfo lastCheckTimestamp="1762914334406" />
+            <CheckInfo lastCheckTimestamp="1763002952515" />
           </value>
         </entry>
         <entry key="com.example.ludex_cyrpta.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1762914334403" />
+            <CheckInfo lastCheckTimestamp="1763002952523" />
           </value>
         </entry>
       </map>
