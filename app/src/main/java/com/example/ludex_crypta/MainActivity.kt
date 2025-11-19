@@ -1,4 +1,4 @@
-package com.example.ludex_cyrpta
+package com.example.ludex_crypta
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
