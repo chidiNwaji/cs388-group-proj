@@ -1,4 +1,4 @@
-package com.example.ludex_cyrpta
+package com.example.ludex_crypta
 
 class Game(val name: String, val price: String, val imageLink: String, val tags: MutableList<String>, val trailerLink: String, val descr: String, val listBelong: MutableMap<String, Int>, val onSale: Boolean, val trending: Boolean) {
     /*

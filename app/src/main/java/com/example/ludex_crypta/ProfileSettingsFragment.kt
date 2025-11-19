@@ -1,4 +1,4 @@
-package com.example.ludex_cyrpta
+package com.example.ludex_crypta
 
 import android.os.Bundle
 import android.view.LayoutInflater

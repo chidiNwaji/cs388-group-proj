@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ludex_cyrpta'
+    namespace 'com.example.ludex_crypta'
     compileSdk 36
 
     defaultConfig {
